@@ -1,6 +1,6 @@
 # 🌐 GFL India – Website Development Showcase
 
-This repository showcases the design and development work I did for **Global Freight Logistics Overseas Pvt. Ltd. (GFL India)** — a corporate website built on **Wix** to highlight their logistics services and brand presence.  
+This repository showcases the design and development work I did for **Global Freight Logistics Overseas Pvt. Ltd. (GFL India)** — a corporate website built on **Wix Studio** to highlight their logistics services and brand presence.  
 The live project is deployed on the client’s domain, but this repo contains a **UI preview page** and project documentation for portfolio purposes.
 
 ---
