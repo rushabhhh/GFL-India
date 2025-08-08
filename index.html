@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFL India Project Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+            background: #fff;
+            color: #181818;
+            line-height: 1.6;
+        }
+        /* HERO SECTION */
+        .hero {
+            background: #fff;
+            padding: 70px 0 60px 0;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .hero-title .highlight {
+            color: #ff7a00;
+        }
+        .hero-desc {
+            font-size: 1.25em;
+            color: #333;
+            margin-bottom: 35px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero-card {
+            background: #fff;
+            color: #333;
+            max-width: 500px;
+            margin: 0 auto;
+            border-radius: 18px;
+            box-shadow: 0 10px 40px rgba(255, 122, 0, 0.15);
+            padding: 36px 32px 28px 32px;
+            border: 2px solid #ff7a00;
+        }
+        .hero-card-title {
+            font-size: 1.6em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #ff7a00;
+        }
+        .hero-card-desc {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            color: #444;
+        }
+        .btn-main {
+            display: inline-block;
+            background: #ff7a00;
+            color: #fff;
+            padding: 14px 42px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.15em;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-bottom: 22px;
+            border: 2px solid transparent;
+        }
+        .btn-main:hover {
+            background: #fff;
+            color: #ff7a00;
+            border-color: #ff7a00;
+        }
+        .hero-card-features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 25px;
+            font-size: 1em;
+            border-top: 1px dashed #ff7a00;
+            padding-top: 20px;
+        }
+        .hero-card-feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .hero-card-feature-icon {
+            font-size: 1.8em;
+            color: #ff7a00;
+            background: rgba(255, 122, 0, 0.1);
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        /* MY ROLE SECTION */
+        .section {
+            background: #fff;
+            padding: 60px 20px 40px 20px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            font-weight: 700;
+            color: #ff7a00;
+            margin-bottom: 18px;
+        }
+        .section-desc {
+            text-align: center;
+            font-size: 1.15em;
+            color: #444;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(255, 122, 0, 0.12);
+            padding: 35px 25px;
+            max-width: 260px;
+            text-align: center;
+            border-left: 4px solid #ff7a00;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(255, 122, 0, 0.2);
+        }
+        .card-icon {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff7a00;
+            background: rgba(255, 122, 0, 0.1);
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: auto;
+        }
+        .card-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #ff7a00;
+        }
+        .card-desc {
+            font-size: 1em;
+            color: #333;
+        }
+        /* FEATURES SECTION (from image) */
+        .features {
+            background: #f9f9f9;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 1.8em;
+            color: #ff7a00;
+            margin-bottom: 10px;
+        }
+        .features p {
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            color: #555;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .feature-card-icon {
+            font-size: 2em;
+            color: #ff7a00;
+            margin-bottom: 15px;
+        }
+        .feature-card h3 {
+            font-size: 1.2em;
+            color: #ff7a00;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            color: #555;
+            font-size: 0.95em;
+        }
+        footer {
+            text-align: center;
+            color: #ff7a00;
+            padding: 20px 0;
+            background: rgba(255, 122, 0, 0.05);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-title">
+            Discover <span class="highlight">GFL India Website</span>
+        </div>
+        <div class="hero-desc">
+            Experience a modern logistics platform for <b>Global Freight Logistics Pvt. Ltd.</b><br>
+            End-to-end supply chain, freight, and warehousing solutions.
+        </div>
+        <a href="https://www.gflindia.in/" class="btn-main" target="_blank">View Live Site</a>
+    </div>
+
+ 
+    
+
+   <!-- MY KEY TASKS SECTION -->
+<div class="features">
+    <h2>MY KEY TASKS AND ROLES</h2>
+    <p>My contributions and responsibilities while developing and delivering the GFL India website.</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="feature-card-icon">&#128187;</div>
+            <h3>Website Design & Layout</h3>
+            <p>Planned and designed a modern, user-friendly interface that aligns with the client's brand identity.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-card-icon">&#128196;</div>
+            <h3>Content Structuring</h3>
+            <p>Organized pages, sections, and navigation flow for clear communication and easy usability.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-card-icon">&#128736;</div>
+            <h3>Wix Development</h3>
+            <p>Customized the website on Wix using built-in tools and tailored settings for client requirements.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-card-icon">&#128640;</div>
+            <h3>Feature Integration</h3>
+            <p>Implemented tools like shipment tracking and CBM calculators to enhance functionality.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-card-icon">&#128483;</div>
+            <h3>Client Collaboration</h3>
+            <p>Worked closely with stakeholders to refine the vision, gather feedback, and ensure satisfaction.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-card-icon">&#9989;</div>
+            <h3>Testing & Delivery</h3>
+            <p>Conducted thorough testing for responsiveness, performance, and user experience before launch.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <footer>
+        &copy; 2025 | Project Showcase for GFL India
+    </footer>
+</body>
+</html>
