@@ -63,7 +63,7 @@ You can view the live GFL India website here:
 If you’d like to discuss this project or collaborate:
   
 **Email:** rushabhrathod018@gmail.com  
-**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/rushabhrathod018/)  
+**LinkedIn:** [Rushabh Rathod](https://linkedin.com/in/rushabhrathod018/)  
 
 ---
 
