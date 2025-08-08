@@ -18,9 +18,9 @@ A visually engaging, mobile-friendly platform that reflects GFL’s global logis
 ## 🛠 My Key Roles
 
 - 🎨 **UI/UX Design** – Planned and implemented a clean, modern layout following the brand’s orange–black color palette.  
-- 🖥 **Wix Development** – Customized the site using Wix Editor and Velo scripting for interactive features.  
+- 🖥 **Wix Studio Development** – Customized the site using Wix Editor and Velo scripting for interactive features.  
 - 🗂 **Content Structuring** – Organized service pages, navigation flow, and information hierarchy.  
-- ⚙ **Feature Integration** – Added tools like shipment tracking and CBM calculator for client use.  
+- ⚙ **Feature Integration** – Added tools CBM calculator, Forms for client use.  
 - 🤝 **Client Collaboration** – Regular discussions with the client to refine visuals, structure, and functionality.  
 - 🧪 **Testing & Optimization** – Ensured responsiveness, performance, and accessibility across devices.
 
@@ -30,8 +30,8 @@ A visually engaging, mobile-friendly platform that reflects GFL’s global logis
 
 - **Responsive Design** – Optimized for desktop, tablet, and mobile.
 - **Brand Consistency** – Applied GFL India’s corporate colors, typography, and style guidelines.
-- **Interactive Elements** – Functional shipment tracking and calculator tools (Wix Velo).
-- **Optimized Navigation** – Clear menu structure for easy access to services, tracking, and contact forms.
+- **Interactive Elements** – Functional calculator tools (Wix Velo).
+- **Optimized Navigation** – Clear menu structure for easy access to services, and contact forms.
 - **SEO-Ready** – Configured metadata and structured content for better search visibility.
 
 ---
